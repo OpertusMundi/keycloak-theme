@@ -1,0 +1,109 @@
+:root {
+    --titleFont: 'Space Grotesk';
+    --mainFont: 'Roboto', sans-serif;
+  
+    --mainColor: #55F4F0;
+    --secondColor: #190AFF;
+    --darkColor: #333333;
+    --labelColor: #6C6C6C;
+    --greyColor: #BCBCBC;
+    --lightBgColor: #F2F2F2;
+}
+
+@font-face {
+    font-family: Space-Grotesk;
+    src: url("../fonts/SpaceGrotesk-Bold.woff") format("woff");
+}
+
+body {
+    font-family: var(--mainFont) !important;
+    font-family: Space-Grotesk;
+    font-size: 18px;
+    background: transparent;
+    background: var(--lightBgColor);
+    color: var(--labelColor);
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    margin: 40px 0 10px 0;
+}
+
+input {
+    color: var(--darkColor);
+    height: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 0.94em;
+    padding: 10px 20px;
+    outline: none;
+    letter-spacing: 0.02em;
+    border: 2px solid var(--secondColor);
+    margin: 30px 0 0 0;
+}
+
+input:last-child {
+    margin-bottom: 30px;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+#input-error {
+    color: red;
+    font-size: 0.8em;
+}
+
+#kc-header-wrapper {
+    display: none;
+}
+
+#kc-form-wrapper {
+    width: 360px;
+    max-width: 90vw;
+    text-align: center;
+}
+
+#kc-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kc-form h1 {
+    font-family: Space-Grotesk !important;
+    font-weight: 700;
+    margin: 60px 0 110px 0;
+    color: var(--darkColor);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#kc-form-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#kc-login {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding: 14px 20px 12px;
+    font-size: 0.94em;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    color: #fff !important;
+    background: var(--secondColor) !important;
+    border-radius: 32px;  
+    width: auto;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    min-width: 200px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
