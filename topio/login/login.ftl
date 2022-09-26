@@ -64,6 +64,22 @@
                       <input tabindex="4" class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" name="login" id="kc-login" type="submit" value="LOGIN"/>
                   </div>
             </form>
+
+            <div class="alternative-login-label">
+                <hr>
+                <span>Or login with</span>
+                <hr>
+            </div>
+            <div class="alternative-login-btns-container">
+                <a href="https://beta.topio.market/oauth2/authorization/github" class="alternative-login-btn alternative-login-btn-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.506" height="20" viewBox="0 0 20.506 20"><defs><clipPath id="a"><path data-name="Rectangle 5694" fill="#333" d="M0 0h20.506v20H0z"/></clipPath></defs><g data-name="Group 7742"><g data-name="Group 7741" clip-path="url(#a)"><path data-name="Path 14414" d="M10.252 0a10.254 10.254 0 0 0-3.24 19.982c.512.094.7-.223.7-.495 0-.243-.009-.888-.014-1.744-2.851.619-3.454-1.375-3.454-1.375a2.719 2.719 0 0 0-1.139-1.5c-.931-.636.071-.623.071-.623A2.154 2.154 0 0 1 4.747 15.3a2.183 2.183 0 0 0 2.983.852 2.188 2.188 0 0 1 .651-1.371c-2.277-.259-4.67-1.139-4.67-5.068a3.964 3.964 0 0 1 1.056-2.747 3.684 3.684 0 0 1 .1-2.713s.86-.276 2.819 1.051a9.723 9.723 0 0 1 5.134 0c1.958-1.327 2.817-1.051 2.817-1.051a3.675 3.675 0 0 1 .1 2.713 3.958 3.958 0 0 1 1.055 2.751c0 3.939-2.4 4.806-4.682 5.059a2.447 2.447 0 0 1 .7 1.9c0 1.37-.013 2.476-.013 2.812 0 .274.185.594.7.493A10.255 10.255 0 0 0 10.252 0" fill="#333" fill-rule="evenodd"/></g></g></svg>
+                    GITHUB
+                </a>
+                <a href="https://beta.topio.market/oauth2/authorization/google" class="alternative-login-btn alternative-login-btn-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19.6" height="20" viewBox="0 0 19.6 20"><defs><clipPath id="a"><path data-name="Rectangle 5695" fill="#333" d="M0 0h19.6v20H0z"/></clipPath></defs><g data-name="Group 7747"><g data-name="Group 7746" clip-path="url(#a)" fill="#333"><path data-name="Path 14415" d="M19.6 10.222Z"/><path data-name="Path 14416" d="M10 8.178v3.711h5.511a4.887 4.887 0 0 1-2.044 3.244 5.919 5.919 0 0 1-3.467 1 6.02 6.02 0 0 1-5.689-4.155 6.156 6.156 0 0 1-.333-1.976 6.469 6.469 0 0 1 .322-1.98A6.045 6.045 0 0 1 10 3.867a5.542 5.542 0 0 1 3.867 1.489l2.822-2.754A9.608 9.608 0 0 0 10 .002a10 10 0 0 0 0 20 9.531 9.531 0 0 0 6.622-2.422 9.777 9.777 0 0 0 2.978-7.358 8.569 8.569 0 0 0-.211-2.044Z"/></g></g></svg>
+                    GOOGLE
+                </a>
+            </div>
         </#if>
         </div>
 
