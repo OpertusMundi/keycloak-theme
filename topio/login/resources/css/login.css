@@ -77,7 +77,7 @@ small {
 #kc-form h1 {
     font-family: Space-Grotesk !important;
     font-weight: 700;
-    margin: 60px 0 110px 0;
+    margin: 60px 0 0 0;
     color: var(--darkColor);
     font-size: 45px;
     font-weight: 600;
@@ -90,9 +90,9 @@ small {
 
 #kc-login {
     outline: none;
-    border: none;
+    border: solid 2px transparent;
     box-shadow: none;
-    padding: 14px 20px 12px;
+    padding: 12px 20px 11px;
     font-size: 0.94em;
     letter-spacing: 0.08em;
     font-weight: 500;
@@ -106,4 +106,62 @@ small {
     min-width: 200px;
     text-transform: uppercase;
     line-height: 20px;
+    transition: all ease-in-out .05s;
+}
+
+#kc-login:hover {
+    border: solid 2px var(--secondColor);
+    background: transparent !important;
+    color: var(--secondColor) !important;
+}
+
+#kc-form-wrapper .alternative-login-label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#kc-form-wrapper .alternative-login-label hr {
+    flex-grow: 1;
+    background: var(--darkColor);
+    height: 2px;
+}
+
+.alternative-login-btns-container {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin: .6em 0 2em 0;
+}
+
+.alternative-login-btns-container svg {
+    margin: 0;
+}
+
+.alternative-login-btn {
+    background: #fff;
+    border: none;
+    padding: 9px 20px 9px;
+    font-size: 0.94em;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    color: var(--darkColor) !important;
+    text-decoration-line: none !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.alternative-login-btn:hover {
+    box-shadow: 0 5px 7px #c4c4c4;
+}
+
+.alternative-login-btn-left {
+    border-radius: 32px 0 0 32px;
+}
+
+.alternative-login-btn-right {
+    border-radius: 0 32px 32px 0;
 }
