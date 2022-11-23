@@ -74,6 +74,12 @@ small {
     align-items: center;
 }
 
+#kc-form-login a {
+    line-height: 3em;
+    color: var(--secondColor);
+    font-size: .92em;
+}
+
 #kc-form h1 {
     font-family: Space-Grotesk !important;
     font-weight: 700;
